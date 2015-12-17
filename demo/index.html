@@ -8,12 +8,6 @@
   <title>nvd3-multi-bar Demo</title>
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="../nvd3-multi-bar.html">
-  <style>
-    nvd3-multi-bar div {
-      display: flex;
-      height: 70vh;
-    }
-  </style>
 </head>
 
 <body unresolved>
@@ -21,7 +15,11 @@
   <p>An example of
     <code>&lt;nvd3-multi-bar&gt;</code>:</p>
 
-  <nvd3-multi-bar>
+  <nvd3-multi-bar
+    data="[[data]]"
+    height="150"
+    width="600"
+    show-legend>
 
   </nvd3-multi-bar>
 
