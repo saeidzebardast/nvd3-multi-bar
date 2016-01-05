@@ -11,7 +11,7 @@ bower install nvd3-multi-bar
 ### Tag
 
 ```
-<nvd3-multi-bar data="[[data]]"></nvd3-multi-bar>
+<nvd3-multi-bar auto-resize data="[[data]]"></nvd3-multi-bar>
 ```
 
 ### Data Format
